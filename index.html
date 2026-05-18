@@ -8,51 +8,57 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
     <title>Dutch leren</title>
 </head>
 
 <body>
     <nav>
-        <h2 class="logo"><a href=""><i class="fa-thin fa-school-flag"></i>Learning </a></h2>
+        <h2 class="logo"><a href=""><i class="fa-solid fa-school-flag"></i> Learning </a></h2>
         <ul class="nav-links">
-            <li><a href="#">Home</a></li>
+            <li><a href="./index.html">Home</a></li>
             <li><a href="#">Servces</a></li>
-            <li><a href="#">Contact </a></li>
-            <li><a href="#">Lesons </a></li>
+            <li><a href="./contact.html">Contact </a></li>
+            <li><a href="#">Course</a></li>
         </ul>
         <div class="buttons">
+            <button type="button"> NL</button>
             <button type="button">AR</button>
-            <button type="button">EN</button>
         </div>
     </nav>
     <header>
         <div class="header-firstEleement"> <img src="./assets/imgs/2009.i003.003_back_to_school_horizontal_banner.jpg"
                 alt="school imge" width="600px" height="408px"></div>
-        <div class="header-secondEleement">
+        <div class="header-secondEleement"  data-aos="zoom-in">
             <h1>Learn Dutch </h1>
             <h2>the easy and fun way</h2>
             <p>interactive and engaging lessons to help you <br>
                 speak , understand , and write Duthe with confidence </p>
 
-            <button type="button"> Start learning Now <i class="fa-solid fa-angles-right"></i> </button>
+            <button class="but-zoek" type="button"> Start learning Now <i class="fa-solid fa-angles-right"></i> </button>
         </div>
     </header>
     <section class="view-lessons">
-        <div class="levels">
+        <div class="levels" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
             <h2>A1 Beginner</h2>
             <p>Learn basic words and <br>
                 simple daily expressions
             </p>
             <img src="./assets/imgs/102369.jpg" alt="" width="100px" height="100px">
         </div>
-        <div class="levels">
+        <div class="levels" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
             <h2>A2 Elementary</h2>
             <p>Build simple sentences and talk <br>
                 about everyday topics
             </p>
             <img src="./assets/imgs/52391.jpg" alt="" width="100px" height="100px">
         </div>
-        <div class="levels">
+        <div class="levels" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
 
             <h2>B1 Intermediate</h2>
             <p>Communicatie about work,<br>
@@ -61,16 +67,119 @@
             <img src="./assets/imgs/alarm-clock-stack-books-well-packed-school-bag-with-supplies.jpg" alt=""
                 width="100px" height="100px">
         </div>
-        <div class="levels">
+        <div class="levels" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
 
             <h2>B2 Upper intermediate</h2>
             <p>Develop fluency and <br>
                 understand complex texts
             </p>
             <img src="./assets/imgs/row-books.jpg" alt="" width="100px" height="100px">
+          
+        </div>
+      
+       
+    </section>
+    <section  class="title"  data-aos="zoom-in" >
+        <h2>Why learn with Us</h2>
+    </section>
+    <section class="section-skills">
+        <div class="skill"  data-aos="zoom-in">
+            <i class="fa-solid fa-headset"></i>
+            <h2>Listening</h2>
+            <p>Listening exercises from everyday life</p>
+        </div>
+        <div class="skill"  data-aos="zoom-in">
+            <i class="fa-brands fa-leanpub"></i>
+            <h2>Grammar</h2>
+            <p>Simplified Explanations with examples<br> and practice exercises</p>
+        </div>
+       
+        <div class="skill"  data-aos="zoom-in">
+            <i class="fa-regular fa-comment-dots"></i>
+            <h2>Conversation</h2>
+            <p>Interactive rote learning to improve fluency and confidence</p>
+        </div>
+        <div class="skill"  data-aos="zoom-in">
+            <i class="fa-solid fa-text-height"></i>
+            <h2>Vocabulary</h2>
+            <p>Important Vocabulary with examples and correct pronunciation </p>
+        </div>
+        <div class="skill" data-aos="zoom-in">
+            <i class="fa-solid fa-user-pen"></i>
+            <h2>Tests</h2>
+            <p>Interactive test to continuously assess your level</p>
+        </div>
+
+    </section>
+    <section class="section-test">
+        <div class="resever" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"> <h1>One hour. <br>
+                    Completely without obligation</h1>
+        </div>
+        <div class="discreption" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+             <p> Book a free introductory lesson. We will determine your level and learning </p>
+        </div>
+        <div class="section-form"data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+             <form action="">
+                <input type="text" placeholder="Name">
+                <input type="email" name="E-mail" id="" placeholder="E-mail">
+
+             </form>
+        </div>
+        <div class="select" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+            <select name="" id="">
+                <option value="">Whice language do you speak ?</option>
+                <option value="">Arabic</option>
+                <option value=""> English</option>
+                <option value=""> Franch</option>
+                <option value=""> Spanish</option>
+                <option value=""> German</option>
+             </select> 
+        </div>
+        <div class="textarea" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <textarea name="text" id="" placeholder="Tell something about your goals..." cols="60" rows="11"></textarea>
+        </div>
+        <div class="send">
+            <button type="button">Send Request</button>
         </div>
     </section>
+    <section class="section-culture"  >
+        <div class="left" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+            <h1>Discover the Netherlands and Its Culture</h1>
+            <p>The Netherlands is not only a beautiful country filled with canals and windmills, but also a place with a rich and diverse culture. Dutch people are known for their openness, punctuality, organized lifestyle, and love for teamwork and cycling. By learning the Dutch language, you will be able to understand Dutch society more deeply and communicate confidently in daily life, whether for studying, working, or making new friends. In this section, you will explore Dutch traditions, holidays, popular foods, and everyday lifestyle in a simple and enjoyable way.</p>
+        </div>
+        <div  class="right" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+            <img src="./assets/imgs/hero-netherlands (1).png" alt="" width="500px" height="min-content">
+        </div>
+    </section>
+  
+        <footer class="section-footer">
+            <div>
+               <p>Dutch Learn 2026  &copy;  </p>
+               <p><i class="fa-solid fa-phone-volume"></i>  0031686228807</p>
+               <p> <i class="fa-solid fa-envelope"></i> angelamper165.nl</p>
 
+            </div>
+            <div>
+             <p>Every small step each day brings you closer <br/> to mastering Dutch <i class="fa-solid fa-beer-mug-empty"></i></p>
+            </div>
+            <div class="icons">
+                
+                <div><a href="#"> <i class="fa-brands fa-facebook" style="color: blue;"></i></a></div>
+                <div> <a href="#"><i class="fa-brands fa-square-instagram" style="color: salmon;"></i></a></div>
+                <div> <a href="#"><i class="fa-brands fa-square-youtube" style="color: red;"></i></a></div>
+                <div><a href="#"><i class="fa-brands fa-tiktok" style="color: black;"></i></a></div>
+            </div>
+        </footer>
+   
+<script src="./assets/js/app.js"></script>
 </body>
 
 </html>

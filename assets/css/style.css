@@ -43,9 +43,8 @@ nav a:hover {
 	color: var(--amber-earth);
 	text-decoration: underline;
 }
-i {
+.zoek i {
 	color: var(--baltic-blue);
-	background-color: var(--amber-earth);
 }
 
 .buttons button {
@@ -67,7 +66,7 @@ header {
 	flex-wrap: wrap;
 	gap: 10px;
 	padding: 10px 5%;
-	margin: 30px 1%;
+	margin: 30px 20px;
 	border-radius: 7px;
 }
 /* .header-firstEleement,.header-secondEleement{
@@ -93,6 +92,10 @@ header {
 	cursor: pointer;
 }
 .view-lessons {
+	background-color: #f5f1ea;
+	min-height: fit-content;
+	border-radius: 15px;
+	margin: 20px 20px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -101,10 +104,11 @@ header {
 }
 .levels {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: white;
 	text-align: center;
 	padding: 20px;
-	margin: 30px 10px;
-	border-radius: 6px;
+	margin: 50px 10px;
+	border-radius: 16px;
 	flex: 1 1 270px;
 	transition: 0.2s;
 }
@@ -113,5 +117,179 @@ header {
 }
 .levels:hover {
 	cursor: pointer;
-	box-shadow: 0 4px 8px 0 rgba(136, 82, 82, 0.2), 0 6px 20px 0 rgba(166, 61, 61, 1);
+	box-shadow: 0 4px 8px 0 rgba(136, 82, 82, 0.2), 0 6px 20px 0 rgb(23, 13, 13);
 }
+.title {
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+	margin: 30px;
+	color: var(--baltic-blue);
+}
+.section-skills {
+	background-color: #f5f1ea;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 20px;
+	align-items: center;
+	flex-wrap: wrap;
+	border-radius: 10px;
+	min-height: 100vh;
+}
+.skill {
+	background-color: white;
+
+	text-align: center;
+	border-radius: 10px;
+	gap: 30px;
+	padding: 3% 3%;
+	margin: 20px 20px;
+	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.4), 5px 8px 9px rgba(0, 0, 0, 0.19);
+	flex: 1 1 400px;
+	transition: box-shadow 0.3ms;
+}
+.skill:hover {
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(136, 82, 82, 0.2), 0 6px 20px 0 rgb(9, 5, 5);
+}
+.skill i {
+	color: var(--baltic-blue);
+	font-size: x-large;
+	margin-bottom: 9px;
+}
+.skill p {
+	padding: 9px 0;
+	color: var(--baltic-blue);
+	font-weight: bold;
+}
+.section-culture {
+	/* background-color: var(); */
+	display: flex;
+	flex-wrap: wrap;
+	margin: 30px 20px;
+	border-radius: 15px;
+	background-color: #f5f1ea;
+}
+.right,
+.left {
+	flex: 1 1 500px;
+}
+.right {
+	padding-left: 10px;
+	margin: 20px 20px;
+	width: 50%;
+}
+.right img {
+	width: 100%;
+}
+
+.left {
+	padding-left: 10px;
+	margin: 20px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 30px;
+}
+.left p {
+	max-width: fit-content;
+	flex-wrap: wrap;
+	line-height: 28px;
+	font-weight: bold;
+	color: var(--baltic-blue);
+}
+.section-test {
+	background-color: #f5f1ea;
+	height: fit-content;
+	margin: 30px 20px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+	align-items: center;
+	border-radius: 15px;
+}
+.resever {
+	margin: 20px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.discreption {
+	margin-bottom: 20px;
+	color: var(--baltic-blue);
+	font-weight: bold;
+}
+.section-form {
+	min-width: 40%;
+	margin-bottom: 15px;
+}
+.section-form form {
+	display: flex;
+	flex-direction: column;
+}
+.section-form form input {
+	outline: none;
+	margin: 10px;
+	line-height: 30px;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 6px;
+	color: var(--baltic-blue);
+	font-weight: bold;
+}
+.select {
+	min-width: 40%;
+	height: 30px;
+	margin-bottom: 15px;
+}
+.select select {
+	font-weight: bold;
+	color: var(--baltic-blue);
+	outline: none;
+	border: 2px solid black;
+	width: 100%;
+	border-radius: 6px;
+	height: 30px;
+	
+}
+.textarea textarea{
+	outline: none;
+	border: 1px solid black;
+	resize: none;
+	padding-top: 20px;
+	padding-left: 20px;
+	margin: 20px 0;
+
+}
+.send button{
+   margin: 20px;
+   padding: 16px 50px;
+   border-radius: 20px;
+   background-color: black;
+   color: white;
+   /* font-weight: bold; */
+   font-size: large;
+}
+.send button:hover{
+	cursor: pointer;
+ }
+ .section-footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 30vh;
+	margin: 10px 20px;
+	border-radius: 16px;
+	color: black;
+	background-color:rgba(245, 222, 179, 0.3);
+	font-weight: bold;
+ }
+ .section-footer div{
+	margin: 20px;
+ }
+ .section-footer div p {
+	margin: 10px;
+ }
+ .icons{
+	display: flex;
+	font-size: xx-large;
+ }
